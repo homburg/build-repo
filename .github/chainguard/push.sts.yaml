@@ -1,0 +1,8 @@
+# Match these literal values in the respective claims
+issuer: https://token.actions.githubusercontent.com
+# subject: repo:homburg/hello-actions:ref:refs/heads/main
+subject: repo:homburg/hello-actions
+
+permissions:
+  contents: read
+  issues: write
